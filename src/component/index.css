@@ -1,0 +1,46 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+div#card{
+    margin:2%;
+    border-radius:20px ;
+    gap:20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+div#moviecard:hover{
+    scale: 1.07;
+    transition: 0.2s ease-in-out all;
+}
+#moviecard {
+    width: 14vw;
+    height: 45vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    border-radius: 10px;
+  }
+h2{
+    color: rgba(255, 255, 255, 0.849);
+    background-color: rgba(14, 13, 13, 0.511);
+    text-align: center;
+    margin: 100vh auto 1vh auto;
+    width: 100%;
+    border-radius: 0px 0px 4px 4px;
+    font-size: 120%;
+}
+h1 {
+    text-align: center;
+    font-size: 200%;
+    color:#6340a0;
+    margin: 3%;
+     font-family: "Noto Sans", sans-serif;
+}
