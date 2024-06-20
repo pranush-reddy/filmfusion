@@ -10,7 +10,7 @@ function Navigation() {
       <h1 id="ff">filmfusion</h1>
         </div>
       <div id="links"><Link to="/">Movies</Link>
-      <Link to="/wishlist">Wishlist</Link></div>
+      <Link to="/wishlist">Watchlist</Link></div>
     </nav>
   );
 }
