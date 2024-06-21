@@ -17,8 +17,9 @@ div#moviecard:hover{
     transition: 0.2s ease-in-out all;
 }
 #moviecard {
-    width: 14vw;
-    height: 45vh;
+    width: 18%;
+    height: 48vh;
+    min-width: 17%;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -46,16 +47,73 @@ h1 {
     margin: 3%;
      font-family: "Noto Sans", sans-serif;
 }
-#heart{
+.movie-card {
+    position: relative;
+    width: 100%; 
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+  }
+  
+  .movie-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.664) 0%, rgba(0, 0, 0, 0) 100%);
+    pointer-events: none;
+  }
+  
+  #heart {
+    position: absolute;
+    width: 10%;
+    height: 15%;
+    top: 0px;
+    color:rgb(224, 60, 87);
+    scale: 1.3;
+    padding:8px 25px 0px 6px;
+    background-color: #10101069;
+    right: 0px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .movie-card h2 {
+    position: absolute;
+    bottom: 0px;
+    color: rgb(220, 220, 220);
+    text-align: center;
+    font-size: 120%;
+  }
+  
+/* #heart{
     scale: 2;
     color:rgb(224, 60, 87);
-    width: 7%;
+    width: 5%;
     align-items: center;
     padding-left: 2%;
-    padding-right: 1%;
-    margin-right: 5%;
+    padding-right: 10%;
+    margin-right: 6%;
     cursor: pointer;
-    margin-top: 6%;
+    margin-top: 7%;
     border-radius: 0px 5px 0px 0px;
     background-color: rgba(34, 30, 30, 0.534);
+} */
+
+#maintrans{
+    width: 100%;
+    border-radius: 0px;
+    margin:0% auto;
+    background-color: #101010;
+}
+.w-100{
+    border-radius: 0px;
+}
+img#cr {
+    object-fit:contain;
+} 
+#oncur{
+    margin-bottom: 0px;
 }

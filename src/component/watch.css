@@ -78,17 +78,42 @@
   
   #title {
     color: black;
-    padding: 20%;
+    padding: 0%;
+    
   }
   #detail{
+    border-radius: 15px;
+    display: flex;
     background-color: none;
     color: rgb(240, 236, 236);
+    justify-content: center;
+    align-items: center;
   }
   h2#detail{
     background-color:#583C87;
     text-align: center !important;
-    font-size: 1.9rem;
+    font-size: 1.8em;
   }
   h3#detail{
     text-align: center;
+    font-size: 140%;
+  }
+  /* #unwish{
+    float: right;
+    display: block;
+    margin-top: 4.4%;
+    margin-right: 4%;
+    padding:2%;
+    width: 5%;
+    height: 5%;
+    justify-content: center;
+    border-radius: 0px 10px 0px 0px;
+    scale: 2;
+    color:rgb(224, 60, 87);
+    cursor: pointer;
+    background-color: rgba(34, 30, 30, 0.534);
+    margin-bottom: 7%;
+  } */
+  #decon{
+    margin:20% auto ;
   }

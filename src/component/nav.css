@@ -10,7 +10,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 2%;
 }
 
 #start {
@@ -23,14 +22,14 @@ nav {
 
 h1#ff {
   color: white;
-  font-size: 300%;
+  font-size: 280%;
   margin-left: 2%;
   font-family: "Ubuntu", sans-serif;
 }
 
 i#clip {
   margin-left: 2%;
-  transform: scale(1.4);
+  transform: scale(1.2);
   rotate: -15deg;
 }
 
@@ -62,8 +61,7 @@ div#ds {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 30px;
-  width: 87vw;
+  width: 100%;
   margin: 0% auto;
 }
 
@@ -80,9 +78,9 @@ p{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #26085abc;
+  background-color:rgb(226, 230, 241);
   margin-bottom: 1%;
-  color: white;
+  color: black;
 }
 #frwd, #bckwd{
   padding: 2%;

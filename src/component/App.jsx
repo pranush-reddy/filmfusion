@@ -21,7 +21,7 @@ function App() {
         setWatchlist(filtered);
     };
     useEffect(()=>{
-        console.log(watchlist)
+         console.log(watchlist)
     },[watchlist])
 
     return (
@@ -33,9 +33,10 @@ function App() {
                         path='/'
                         element={<Movie handleAdd={handleAdd} handleRemove={handleRemove} watchlist={watchlist} />}
                     />
-                    <Route path='/Wishlist' element={<Wishlist watchlist={watchlist} />} />
+                    <Route path='/Wishlist' element={<Wishlist watchlist={watchlist} handleRemove={handleRemove} />} />
                 </Routes>
             </BrowserRouter>
+           
         </>
     );
 }
