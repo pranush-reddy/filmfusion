@@ -180,7 +180,7 @@
       width: 100%;
     }
     h2#detail{
-      padding: 4rem 2%;
+      padding: 4.3rem 2%;
       padding-bottom: 0%;
       font-size: 140%;
     
@@ -189,7 +189,10 @@
       padding:1% 8% 0% 0%;
     }
     h3#detail{
-      font-size: 100%;
+      font-size: 110%;
+    }
+    #unwish{
+      font-size: 90%;
     }
   }
   
