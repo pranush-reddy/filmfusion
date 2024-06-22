@@ -117,3 +117,39 @@ img#cr {
 #oncur{
     margin-bottom: 0px;
 }
+@media screen and (max-width: 520px) {
+    div#card {
+        justify-content: flex-start;
+        gap:1%;
+        width: 98%;
+    }
+    #start{
+        justify-content: space-around;
+    }
+    #movie{
+        display: none;
+    }
+    h1#ff{
+        font-size: 200%;
+    }
+    i{
+        scale: 0.9;
+    }
+    nav{
+        height: 12vh;
+    }
+    h3#pagecount{
+        margin-top: 1%;
+    }
+    #moviecard {
+        width: 40%;
+        height: 41vh;
+        min-width: unset;
+        margin: 3% auto; 
+
+    }
+    #trend{
+        font-size: 210%;
+        color: #4505b3;
+    }
+}

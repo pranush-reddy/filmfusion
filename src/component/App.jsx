@@ -11,6 +11,7 @@ function App() {
 
     let handleAdd = (newob) => {
         let newList = [...watchlist, newob];
+        localStorage.setItem("movieApp",JSON.stringify(newList))
         setWatchlist(newList);
     };
 
@@ -18,11 +19,16 @@ function App() {
         let filtered = watchlist.filter((movie) => {
             return movie.id !== obj.id;
         });
+        localStorage.setItem("movieApp",JSON.stringify(filtered))
         setWatchlist(filtered);
     };
     useEffect(()=>{
-         console.log(watchlist)
-    },[watchlist])
+        let moviefromlocalstorg=localStorage.getItem("movieApp")
+        if(!moviefromlocalstorg){
+            return
+        }
+        setWatchlist(JSON.parse(moviefromlocalstorg))
+    },[])
 
     return (
         <>

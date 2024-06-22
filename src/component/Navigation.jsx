@@ -9,8 +9,8 @@ function Navigation() {
 
       <h1 id="ff">filmfusion</h1>
         </div>
-      <div id="links"><Link to="/">Movies</Link>
-      <Link to="/wishlist">Watchlist</Link></div>
+      <div id="links"><Link id="movie" to="/">Movies</Link>
+      <Link to="/wishlist" id="watchlist">Watchlist</Link></div>
     </nav>
   );
 }

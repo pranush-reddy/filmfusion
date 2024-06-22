@@ -98,6 +98,17 @@
     text-align: center;
     font-size: 140%;
   }
+  input[type="search"]{
+    width: 20%;
+    height: 7vh;
+    margin: 2%;
+    border-radius: 15px;
+    border: 0.2px solid black;
+    outline: none;
+    padding: 1%;
+    float: right;
+  }
+  
   /* #unwish{
     float: right;
     display: block;
@@ -117,3 +128,68 @@
   #decon{
     margin:20% auto ;
   }
+  @media screen and (max-width: 520px) {
+    #maingrid{
+      display: block;
+    }
+    #error h6{
+      font-size: 200%;
+      text-align: center;
+      margin-top: 30%;
+      padding-bottom: 0%;
+      padding-top: 0%;
+      margin-top: 20%;
+    }
+    #error{
+      background-position-y: 100%;
+      margin-bottom: 0%;
+      scale: 0.8;
+      height:80vh;
+      padding-bottom: 0%;
+      overflow: hidden;
+      animation-name: wind;
+    }
+    @keyframes wind {
+      from{
+        scale: 0.9;
+      }to{
+        scale: 0.8;
+      }
+    }
+    input[type="search"]{
+      float: none;
+      position: relative;
+      right: 30%;
+      width: 40%;
+      min-width: 40vw;
+      border-radius: 10px;
+      font-size: 101%;
+    }
+    #item{
+      width: 100%;
+      grid-template-columns: 1.1fr 1fr;
+      scale: 0.9;
+      height: 52vh;
+      border: none;
+    }
+    #poster{
+      width: 100%;
+
+    }
+    img{
+      width: 100%;
+    }
+    h2#detail{
+      padding: 4rem 2%;
+      padding-bottom: 0%;
+      font-size: 140%;
+    
+    }
+    #unwish{
+      padding:1% 8% 0% 0%;
+    }
+    h3#detail{
+      font-size: 100%;
+    }
+  }
+  
