@@ -28,7 +28,7 @@ div#moviecard:hover{
     flex-direction: column;
     color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    margin: 10px;
+    margin: 2% auto;
     border-radius: 10px;
   }
 h2{
@@ -119,8 +119,9 @@ img#cr {
 @media screen and (max-width: 520px) {
     div#card {
         justify-content: flex-start;
-        gap:1%;
-        width: 98%;
+        width: 99%;
+        gap:6%;
+        margin-left: 4%;
     }
     #start{
         justify-content: space-around;
@@ -135,24 +136,30 @@ img#cr {
         scale: 0.9;
     }
     nav{
-        height: 12vh;
+        height: 11vh;
     }
     h3#pagecount{
         margin-top: 1%;
     }
+    #card{
+        width: 100%;
+    }
     #moviecard {
-        width: 40%;
-        height: 41vh;
-        min-width: unset;
-        margin: 3% auto; 
-
+        width: 44%;
+        height: 40vh;
+        min-width: unset; 
+        margin: 0;
+        margin-top: 8%;
     }
     #trend{
         font-size: 190%;
+        margin-top: 7%;
         color: #4505b3;
     }
     #heart{
         scale: 0.9;
         padding-right: 20%;
+        top:-1%;
+        right: -1%;
     }
 }
